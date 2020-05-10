@@ -1,0 +1,959 @@
+body {
+    background-image: url("../IMG/img-bg.jpg");
+   
+   
+}
+a:hover{
+    color:#25a5c4;
+    border-right: 3px solid orange;
+}
+a:visited{
+    color: green;
+}
+
+.violet {
+    background-color: #0e0514ee;
+    height: 90px;
+    width: 100%;
+    
+}
+
+.heading {
+    text-align: center;
+    color: white;
+    position: relative;
+    bottom: 110px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.image {
+    background-image: url("../IMG/img-bg.jpg");
+    width: 100%;
+    height: 550px;
+    background-attachment: fixed;
+}
+
+.blue {
+    border-radius: 0.5%;
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    background-color: #48d1cc;
+    position: absolute;
+    top: -39px;
+    left: 0.5px;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.textform {
+    text-align: center;
+    font-weight: bold;
+    padding: -10%;
+}
+
+.form {
+    width: 100%;
+    height: 90%;
+    text-align: center;
+}
+
+.taille {
+    width: 70%;
+    height: 35px;
+    margin: 15px 0px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #f5f5f5;
+}
+
+@media only screen and (min-width:320px) {
+    .button {
+        height: 45px;
+        background-color: silver;
+        border-radius: 10px;
+    }
+    .button1 {
+        background-color: #48d1cc;
+        height: 45px;
+        border-radius: 10px;
+    }
+    .taille {
+        width: 70%;
+        height: 35px;
+        margin: 15px 0px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+    }
+    .logimg {
+        position: relative;
+        left: 70%;
+        height: 20px;
+        bottom: -2px;
+    }
+    .contact-form {
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+        font-size: 20px;
+        background: #f5f5f5;
+        padding: 40px;
+        border-radius: 0.5%;
+        position: relative;
+        top: 150px;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width:768px) {
+    /* //tablette */
+    .button {
+        height: 45px;
+        background-color: blue;
+    }
+    .button1 {
+        background-color: green;
+        height: 45px;
+    }
+    .taille {
+        width: 70%;
+        height: 35px;
+        margin: 15px 0px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+    }
+    .logimg {
+        position: relative;
+        left: 70%;
+        width: 5%;
+        bottom: -2px;
+    }
+    .contact-form {
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+        font-size: 20px;
+        background: #f5f5f5;
+        padding: 40px;
+        border-radius: 0.5%;
+        position: relative;
+        top: 150px;
+        border-radius: 10px;
+    }
+}
+
+@media only screen and (min-width:1124px) {
+    .button1 {
+        float: left;
+        position: relative;
+        left: 16%;
+        background-color: #48d1cc;
+        height: 45px;
+        border-radius: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .button {
+        float: right;
+        position: relative;
+        right: 12%;
+        height: 45px;
+        background-color: silver;
+        border-radius: 10px;
+        position: relative;
+        bottom: 10px;
+    }
+    .taille {
+        width: 70%;
+        height: 35px;
+        margin: 15px 0px;
+        text-align: center;
+        font-size: 17px;
+        font-weight: bold;
+        background-color: #f5f5f5;
+        border-radius: 10px;
+    }
+    .contact-form {
+        width: 40%;
+        height: auto;
+        margin: 0 auto;
+        font-size: 20px;
+        background: #f5f5f5;
+        padding: 40px;
+        border-radius: 0.5%;
+        position: relative;
+        top: 150px;
+        border-radius: 10px;
+    }
+    .logimg {
+        position: relative;
+        left: 70%;
+        width: 4%;
+        bottom: -2px;
+    }
+}
+/*parti creation de compte admin*/
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+    background-color: #48d1cc;
+    color: white;
+}
+
+input[type="submit"] {
+    background-color: #48d1cc;
+    color: white;
+    border: 1px outset black;
+}
+
+.bleut {
+    background-color: #48d1cc;
+    width: 95%;
+    height: 70px;
+    margin: 1% auto;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.deconnexion {
+    float: right;
+    height: 5vh;
+    position: relative;
+    bottom: 12vh;
+    background-color: #48d1ac;
+    color: white;
+    left: -1vw;
+    
+}
+
+.blanche {
+    padding: 3.3%;
+    width: 85%;
+    height: 830px;
+    background-color:white;
+    margin: 0 auto;
+}
+
+.droite {
+    margin: -3%;
+    width: 45%;
+    height: auto;
+    background-color:white ;
+    float: right;
+}
+
+.gauche {
+    width: 45%;
+    height: auto;
+    float: left;
+    color: white;
+}
+
+.label1 {
+    padding: 0px;
+    margin: 30px;
+    display: block;
+    font-weight: bold;
+    font-size: 17pt;
+    color: white;
+}
+
+#icone {
+    float: right;
+    color: grey;
+}
+
+.creation {
+    width: 95%;
+    height: 230px;
+    background-color: white;
+    position: relative;
+    bottom: 29px;
+}
+
+a {
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.avatar_blue {
+    background-color: #48d1cc;
+    width: 95%;
+    height: 150px;
+}
+
+.les_input {
+    width: 50%;
+    height: 30px;
+    margin-left: 5%;
+}
+
+.inscire {
+    font-weight: bold;
+    font-size: 15pt;
+    color: silver;
+    text-align: center;
+    position: relative;
+    right: 110px;
+}
+
+.label {
+    font-weight: bold;
+    color: silver;
+    padding: 2%;
+    margin-left: 10%;
+    font-size: 10pt;
+}
+
+.avatar {
+    margin: 50px auto;
+    margin-left: 40px;
+    font-size: 12pt;
+}
+
+.label-file {
+    cursor: pointer;
+    color: #00b1ca;
+    font-weight: bold;
+}
+
+.label-file:hover {
+    color: #25a5c4;
+}
+
+.input-file {
+    display: none;
+}
+
+.creer_comte {
+    text-align: center;
+    position: relative;
+    bottom: 20px;
+}
+
+.compte {
+    height: 30px;
+    background-color: #48d1cc;
+    margin: 0 auto;
+}
+
+.message_derreur {
+    color: red;
+    position: relative;
+    left: 10%;
+    font-weight: bold;
+}
+
+.messages_derreur {
+    color: red;
+    /* position: relative;
+    left: 10%; */
+    font-weight: bold;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.les_input:focus:valid {
+    border-color: green;
+}
+
+.les_input:focus:invalid {
+    border-color: red;
+}
+
+.admin {
+    width: 30%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid wheat;
+    position: relative;
+    bottom: 40px;
+}
+.Cr_admin {
+    width: 30%;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid wheat;
+    position: relative;
+    bottom: 190px;
+    left: 70%;
+}
+#list_nom{
+    position: relative;
+    left: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+#cercl {
+    border-radius: 55%;
+    width: 100%;
+    height: 100%;
+}
+#cre_admin {
+    border-radius: 55%;
+    width: 100%;
+    height: 100%;
+}
+/* Creer compte joueur */
+
+.white {
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+.white_inscire {
+    font-weight: bold;
+    font-size: 15pt;
+    text-align: center;
+    position: relative;
+}
+
+.white_form {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.les_inputs {
+    width: 30%;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.white_label {
+    font-weight: bold;
+    color: silver;
+    text-transform: uppercase;
+}
+
+.cree_comte {
+    margin: 0 auto;
+    position: relative;
+    bottom: 20px;
+}
+
+#cerclee {
+    border-radius: 55%;
+    width: 100%;
+    height: 100%;
+}
+
+.ma_cercle {
+    border: 1px solid #48d1cc;
+    border-radius: 50%;
+    width: 30%;
+    height: 180px;
+    position: relative;
+    bottom: 465px;
+}
+/* Liste des question */
+
+.question_droite {
+    width: 50%;
+    height: auto;
+    float: right;
+    background-color: white;
+    position: relative;
+    bottom: 40px;
+
+}
+
+.droite_liste {
+    margin: -5%;
+    width: 45%;
+    height: auto;
+    background-color: white;
+    float: right;
+}
+
+.nombre_question {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.input_nombre {
+    width: 15%;
+    height: 84%;
+    margin: -5% auto;
+}
+
+.ok {
+    height: 100%;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: 10%;
+}
+
+.nbr_question {
+    margin-left: 50%;
+    height: 100%;
+    font-weight: bold;
+    color: silver;
+    font-size: 15pt;
+}
+
+.les_question {
+    border: 2px solid silver;
+    width: 98%;
+    height: auto;
+    margin: 5% auto;
+    font-weight: bold;
+}
+
+
+.suivant {
+    width: 20%;
+    float: right;
+    margin-right: 40px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 10%;
+    background-color: #48d1cc;
+    position: relative;
+    left: 60px;
+    bottom: 30px;
+}
+.precedent {
+    width: 20%;
+    float: left;
+    margin-right: 40px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 10%;
+    background-color: #48d1cc;
+    position: relative;
+   left: 30px;
+    bottom: 10px;
+}
+
+.list_quest {
+    position: relative;
+    right: 30%;
+}
+
+.ma_form {
+    font-weight: bold;
+    position: relative;
+    left: 25%;
+}
+
+
+
+
+/* //Liste joueur */
+
+.droite_heading {
+    width: 100%;
+    height: 40px;
+    margin: 12% auto;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: silver;
+}
+
+.border_blu {
+    height: 420px;
+    width: 90%;
+    margin-left: 20px;
+    border: 1px solid #48d1cc;
+    border-radius: 5%;
+    border-top: none;
+    position: relative;
+    bottom: 30px;
+}
+
+.liste_fiche {
+    font-weight: bold;
+    color: silver;
+    font-size: 17pt;
+    text-align: center;
+    width: 90%;
+}
+
+table,
+td,
+th {
+    padding: 5px;
+}
+
+#liste_suivant {
+    float: right;
+    margin-right: 30px;
+    width: 30%;
+    height: 40px;
+    position: relative;
+    bottom: 20px;
+    font-weight: bold;
+    background-color: blue;
+}
+/*creer question*/
+
+.qustionaire_bleut{
+    background-color: #48d1cc;
+    width: 95%;
+    height: 70px;
+    margin: 0 auto;
+    color: white;
+    position: relative;
+    bottom:120px;
+}
+.question_blanche{
+   padding: 0%;
+    width: 85%;
+    height: 500px;
+    background-color:  white;
+    margin: 0 auto;
+    position: relative;
+    bottom: 120px;
+    
+}
+.questionaire_droite{
+    width: 50%;
+    height: auto;
+    background-color: white;
+    float: right;
+}.questionaire_creation{
+    width: 95%;
+    height: 230px;
+    background-color: white;
+    position: relative;
+    bottom: 29px;
+}
+.input{
+    margin: 10px;
+    position: relative;
+    left: 40%;
+    right: 50%;
+}
+#question{
+    width: 50%;
+    height: 60px;
+    border-radius: 5%;
+}
+#point{
+    width: 40%;
+    height: 30px;
+    border-radius: 5%;
+
+}
+#type_reponse{
+width: 50%;
+height: 40px;
+border-radius: 5%;
+position: relative;
+right: 10%;
+
+}
+#btn{
+    width: 30%;
+    height: 40px;
+    border-radius: 5%;
+    background-color: #48d1cc;
+    float: right;
+}
+.label{
+    font-weight: bold;
+    color: silver;
+    font-size: 17pt;
+    position: relative;
+    left: 5%;
+    right: 50%;
+}.genere{
+    border: 1px solid #48d1cc;
+    border-radius: 10px;
+}#setting{
+    margin: 0 auto;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20pt;
+    color: #48d1cc;
+}
+#ajoute{
+position: relative;
+bottom: 41px;
+left: 42%;
+
+}.labell{
+    position: relative;
+   
+   font-size: 12pt;
+   font-weight: bold;
+   text-transform: uppercase;
+   color: silver;
+}.g_input{
+    position: relative;
+   
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+.idem{
+    position: relative;
+    right: 70px;
+}
+.deplace{
+    position: relative;
+    left: 10%;
+}
+
+
+/*interface joueur*/
+
+.jeux_blanche{
+    background-color: white;
+    width: 98%;
+    height: 700px;
+    margin: 0 auto;
+   position: relative;
+  
+}
+#jeux_droite{
+    margin:5px;
+    width: 38.9%;
+    height: 300px;
+    float: right;
+    
+
+}
+#jeux_gauche{
+    width: 60%;
+    height: auto;
+    border: 1px solid #48d1ac;
+    float: left;
+    text-align: center;
+    border-radius: 5%;
+    
+
+}.jeux_question{
+    position: relative;
+    margin: 0 auto;
+    height: 90px;
+    background-color: whitesmoke;
+    width: 70%;
+    text-align: center;
+    border-radius: 10%;
+}
+.jeux_precedent{
+    position: relative;
+   height: 50px;
+  
+}
+
+.jeux_suivant{
+    position: relative;
+   
+    height: 50px;
+    
+}
+#next{
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 10%;
+    background-color: #25a5c4;
+    position: relative;
+  
+    float:right;
+
+    
+}
+#termine{
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 10%;
+    background-color: silver;
+    position: relative;
+   
+    float:right;
+    
+    
+}
+#previous{
+    height: 40px;
+    width: 150px;
+    font-weight: bold;
+    border-radius: 10%/12%;
+    background-color: #25a5c4;
+    float: left;
+ 
+    
+}
+#afficher_question{
+    font-weight: bold;
+    position: relative;
+    bottom: 45px;
+    
+    
+    
+}
+#jeux_reponse{
+    position: relative;
+    right: 20%;
+    
+   
+}
+#jeux_Treponse{
+    position: relative;
+   margin: 0 auto;
+}
+
+#affiche_reponse{
+    position: relative;
+    left:  35%;
+    display: table;
+}
+#affiche_question{
+    position: relative;
+   
+    font-weight: bold;
+    font-size: 13pt;
+    color: silver;
+}
+#mon_score{
+    position: relative;
+    left: 30%;
+    font-weight: bold;
+    color: #25a5c4;
+    font-size: 17pt;
+    bottom: 25px;
+}
+.mput{
+    position: relative;
+   right: 7%;
+    display: table;
+    top: 19px;
+    margin: auto;
+    height: 20px;
+    width: 70px;
+    border-radius: 10%;
+    
+}
+.t_score{
+    width: 50%;
+    height: auto;
+   border: 1px solid #00b1ca;
+    float: left;
+    border-radius: 5%;
+    font-weight: bold;
+    color: silver;
+    border-right: none;
+   
+   
+}
+.m_score{
+    width: 49%;
+    height: 440px;
+    float: right;
+    border: 1px solid #00b1ca;
+    border-radius: 5%;
+    font-weight: bold;
+    color: silver;
+    border-left: none;
+}
+.jeux_admin {
+    width: 15%;
+    height: 25%;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 2px solid wheat;
+    position: relative; 
+    right: 39%;  
+}
+#jeux_cercl {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    
+    
+}
+.reslabe{
+    display: table;
+    position: relative;
+    left: 45%;
+    font-weight: bold;
+    font-size: 13pt;
+}
+#labquest{
+    color: silver;
+    font-weight: bold;
+    font-size: 19pt;
+}
+#labquestion{
+    color: silver;
+    font-weight: bold;
+    font-size: 15pt;
+}
+#termine_gauche{
+    margin: 20px;
+    width: 90%;
+    height: 100%;
+  
+    float: left;
+}
+
+.containerR{
+    background-image:url("../ASSET/IMG/gameover.jpg");
+    height: 800px;
+    opacity: 0.7;
+  
+   
+    
+}
+#jeux_affichage,table{
+    margin:0 auto ;
+    font-weight: bold;
+    text-align: center;
+    color: #905706;
+    
+   
+}
+#jeux_affichage,table,th,td{
+    font-size: 20pt;
+}
+.ab{
+    color: orange;
+    font-size: 17pt;
+    text-transform: uppercase;
+}
+.rejouer{
+    float: right;
+    height: 10vh;
+    position: relative;
+    bottom: 35vh;
+    width: 20%;
+    background-color: #48d1ac;
+    color: white;
+    left: -1vw;
+    font-weight: bold;
+    text-transform: uppercase;
+}

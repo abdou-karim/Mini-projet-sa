@@ -1,0 +1,108 @@
+[
+    {
+        "Rolle": "user",
+        "prenom": "ibou",
+        "nom": "pouye",
+        "login": "ibou@gmail.com",
+        "pass": "44ea672ef93f52da860c27d3f5a5844d",
+        "repass": "44ea672ef93f52da860c27d3f5a5844d",
+        "image": "..\/avatar\/joueur\/ibou.png",
+        "score": 9000
+    },
+    {
+        "Rolle": "user",
+        "prenom": "biram",
+        "nom": "samb",
+        "login": "biram@gmail.com",
+        "pass": "44ea672ef93f52da860c27d3f5a5844d",
+        "repass": "44ea672ef93f52da860c27d3f5a5844d",
+        "image": "..\/avatar\/joueur\/biram.png",
+        "score": 500
+    },
+    {
+        "Rolle": "user",
+        "prenom": "papa",
+        "nom": "niang",
+        "login": "niangcheikh@gmail.fr",
+        "pass": "44ea672ef93f52da860c27d3f5a5844d",
+        "repass": "44ea672ef93f52da860c27d3f5a5844d",
+        "image": "..\/avatar\/joueur\/fd.png",
+        "score": 1500
+    },
+    {
+        "Rolle": "user",
+        "prenom": "mamadou",
+        "nom": "diouf",
+        "login": "mamadou@gmail.com",
+        "pass": "44ea672ef93f52da860c27d3f5a5844d",
+        "repass": "44ea672ef93f52da860c27d3f5a5844d",
+        "image": "..\/avatar\/joueur\/biram.png",
+        "score": 5000
+    },
+    {
+        "Rolle": "user",
+        "prenom": "beacye",
+        "nom": "sidibe",
+        "login": "becaye@gmail.com",
+        "pass": "44ea672ef93f52da860c27d3f5a5844d",
+        "repass": "44ea672ef93f52da860c27d3f5a5844d",
+        "image": "..\/avatar\/joueur\/fd.pgn",
+        "score": 3000
+    },
+    {
+        "Rolle": "user",
+        "prenom": "joueur",
+        "nom": "joueur",
+        "login": "joueur",
+        "pass": "7b68f94205ba21d3c654e65f03f7ca4e",
+        "repass": "7b68f94205ba21d3c654e65f03f7ca4e",
+        "image": "..\/avatar\/joueur\/ibou.png",
+        "score": 3500
+    },
+    {
+        "Rolle": "admin",
+        "prenom": "AbdouKarim",
+        "nom": "Sidibe",
+        "login": "abdoukarimsidibe1@gmail.com",
+        "pass": "cf5b9b40b81368743eeeeaef14c25254",
+        "repass": "cf5b9b40b81368743eeeeaef14c25254",
+        "image": "..\/avatar\/admin\/AKS.png"
+    },
+    {
+        "Rolle": "admin",
+        "prenom": "cheikh",
+        "nom": "ibra",
+        "login": "ibra@gmail.com",
+        "pass": "44ea672ef93f52da860c27d3f5a5844d",
+        "repass": "44ea672ef93f52da860c27d3f5a5844d",
+        "image": "..\/avatar\/admin\/fd.png"
+    },
+    {
+        "Rolle": "user",
+        "prenom": "khar",
+        "nom": "sidibe",
+        "login": "khar@gmail.com",
+        "pass": "44ea672ef93f52da860c27d3f5a5844d",
+        "repass": "44ea672ef93f52da860c27d3f5a5844d",
+        "image": "avatar\/joueur\/fd.png",
+        "score": 10000
+    },
+    {
+        "Rolle": "admin",
+        "prenom": "chikh",
+        "nom": "diop",
+        "login": "cheikhobra@gmail.com",
+        "pass": "44ea672ef93f52da860c27d3f5a5844d",
+        "repass": "44ea672ef93f52da860c27d3f5a5844d",
+        "image": "..\/avatar\/admin\/fd.png"
+    },
+    {
+        "Rolle": "admin",
+        "prenom": "Abdoukarim",
+        "nom": "sidibe",
+        "login": "abdoukarimsidibe1@gmail.com",
+        "pass": "cf5b9b40b81368743eeeeaef14c25254",
+        "repass": "cf5b9b40b81368743eeeeaef14c25254",
+        "image": "..\/avatar\/admin\/aks.jpeg"
+    }
+]
